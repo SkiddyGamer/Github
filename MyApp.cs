@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Github
 {
-    public partial class Form1 : Form
+    public partial class MyApp : Form
     {
-        public Form1()
+        public MyApp()
         {
             InitializeComponent();
         }
@@ -20,6 +20,11 @@ namespace Github
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("I am learning github!");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
