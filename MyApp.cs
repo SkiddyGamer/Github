@@ -20,6 +20,7 @@ namespace Github
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("I am learning github!");
+            MessageBox.Show("My 2nd message!");
         }
 
         private void button2_Click(object sender, EventArgs e)
